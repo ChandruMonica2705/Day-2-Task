@@ -1,0 +1,16 @@
+Difference between Window and Document objects:-
+
+Window Object:-
+      a)Window represents the entire browser window which displays the contents of the webpage.
+      b)It is the object of the browser page that is loaded first.
+      c)Syntax of window object is "window.propertyname;"
+      d)The window object is a window or tab containing a DOM document.
+      e)Window object contains properties and methods that cannot be accessed by the document object.
+      f)Global objects,functions and variables of js are members of window object.
+Document Object:-
+      a)Document represents the HTML document that loaded in the browser.
+      b)It is the object that is loaded inside the window.
+      c)Syntax of document object is "document.propertyname;"
+      d)The document object loads the DOM document in the window.
+      e)Document object also contains properties and methods that can be accessed by a window.
+      f)HTML tags , elements attributes are member of document object. 
